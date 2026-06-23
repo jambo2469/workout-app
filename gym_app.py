@@ -1,8 +1,78 @@
 import streamlit as st
 import time
 import json
+from datetime import datetime
+from github import Github, GithubException
 
-# --- 1. Empty Default State ---
+# --- 1. GitHub Integration ---
+@st.cache_resource
+def get_github_client():
+    try:
+        token = st.secrets.get("GITHUB_TOKEN")
+        if not token or token == "your_github_token_here":
+            return None
+        return Github(token)
+    except:
+        return None
+
+@st.cache_data(ttl=60)
+def load_from_github():
+    """Load plan and completed workouts from GitHub"""
+    try:
+        client = get_github_client()
+        if not client:
+            return None
+        
+        repo_name = st.secrets.get("GITHUB_REPO", "")
+        file_name = st.secrets.get("GITHUB_FILE", "week_1.json")
+        
+        if not repo_name:
+            return None
+            
+        repo = client.get_user().get_repo(repo_name.split("/")[1])
+        file_content = repo.get_contents(file_name)
+        return json.loads(file_content.decoded_content.decode())
+    except Exception as e:
+        st.warning(f"Could not load from GitHub: {str(e)}")
+        return None
+
+def save_to_github(data):
+    """Save plan and workouts back to GitHub"""
+    try:
+        client = get_github_client()
+        if not client:
+            st.error("GitHub integration not configured. See secrets setup.")
+            return False
+        
+        repo_name = st.secrets.get("GITHUB_REPO", "")
+        file_name = st.secrets.get("GITHUB_FILE", "week_1.json")
+        
+        if not repo_name:
+            st.error("GitHub repo not configured in secrets.")
+            return False
+            
+        repo = client.get_user().get_repo(repo_name.split("/")[1])
+        
+        try:
+            file_content = repo.get_contents(file_name)
+            repo.update_file(
+                file_name, 
+                f"Update workout data - {datetime.now().isoformat()}", 
+                json.dumps(data, indent=2),
+                file_content.sha
+            )
+        except GithubException:
+            repo.create_file(
+                file_name,
+                f"Create workout data - {datetime.now().isoformat()}",
+                json.dumps(data, indent=2)
+            )
+        return True
+    except Exception as e:
+        st.error(f"Failed to save to GitHub: {str(e)}")
+        return False
+
+# --- 2. Empty Default State ---
 default_plan = {
     "macro_goal": "Awaiting Plan Import...",
     "week_goal": "Upload your JSON file to begin.",
@@ -14,7 +84,13 @@ default_plan = {
 }
 
 if 'plan' not in st.session_state:
-    st.session_state.plan = default_plan
+    github_data = load_from_github()
+    if github_data:
+        st.session_state.plan = {k: v for k, v in github_data.items() if k in ["macro_goal", "week_goal", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]}
+        st.session_state.weekly_log = github_data.get("completed_workouts", [])
+    else:
+        st.session_state.plan = default_plan
+        st.session_state.weekly_log = []
 if 'view' not in st.session_state:
     st.session_state.view = 'dashboard'
 if 'current_day' not in st.session_state:
@@ -23,8 +99,6 @@ if 'exercise_index' not in st.session_state:
     st.session_state.exercise_index = 0
 if 'workout_log' not in st.session_state:
     st.session_state.workout_log = []
-if 'weekly_log' not in st.session_state:
-    st.session_state.weekly_log = []
 
 # --- Helper Functions ---
 def start_workout(day):
@@ -67,8 +141,26 @@ def finish_workout(notes):
     st.session_state.workout_log.append({"notes": notes})
     if 'current_session' in st.session_state:
         st.session_state.current_session["notes"] = notes
+        st.session_state.current_session["completed_at"] = datetime.now().isoformat()
         st.session_state.weekly_log.append(st.session_state.current_session)
         del st.session_state.current_session
+    
+    # Save to GitHub
+    github_data = {
+        "macro_goal": st.session_state.plan["macro_goal"],
+        "week_goal": st.session_state.plan["week_goal"],
+        "Monday": st.session_state.plan["Monday"],
+        "Tuesday": st.session_state.plan["Tuesday"],
+        "Wednesday": st.session_state.plan["Wednesday"],
+        "Thursday": st.session_state.plan["Thursday"],
+        "Friday": st.session_state.plan["Friday"],
+        "completed_workouts": st.session_state.weekly_log
+    }
+    
+    if save_to_github(github_data):
+        st.success("✅ Workout saved to GitHub!")
+        st.cache_data.clear()
+    
     st.session_state.view = 'dashboard'
 
 # --- 2. The UI Layout ---
@@ -83,19 +175,50 @@ if st.session_state.view == 'dashboard':
     
     if uploaded_file is not None:
         try:
-            st.session_state.plan = json.load(uploaded_file)
-            st.success("Plan loaded successfully! Scroll down to see your week.")
-        except Exception as e:
-            st.error("Invalid JSON file.")
+            new_plan = json.load(uploaded_file)
+            st.session_state.plan = new_plan
             
-    # Export button is always visible now
-    st.download_button(
-        "📤 Export Results", 
-        data=json.dumps(st.session_state.weekly_log, indent=2) if st.session_state.weekly_log else "[]", 
-        file_name="completed_week_log.json",
-        use_container_width=True
-    )
+            # Save new plan to GitHub
+            github_data = {
+                "macro_goal": new_plan.get("macro_goal", ""),
+                "week_goal": new_plan.get("week_goal", ""),
+                "Monday": new_plan.get("Monday", {"theme": "Rest", "exercises": []}),
+                "Tuesday": new_plan.get("Tuesday", {"theme": "Rest", "exercises": []}),
+                "Wednesday": new_plan.get("Wednesday", {"theme": "Rest", "exercises": []}),
+                "Thursday": new_plan.get("Thursday", {"theme": "Rest", "exercises": []}),
+                "Friday": new_plan.get("Friday", {"theme": "Rest", "exercises": []}),
+                "completed_workouts": st.session_state.weekly_log
+            }
+            
+            if save_to_github(github_data):
+                st.success("✅ New plan loaded and saved to GitHub!")
+                st.cache_data.clear()
+            else:
+                st.warning("Plan loaded locally, but couldn't save to GitHub. Your data may not persist.")
+        except Exception as e:
+            st.error(f"Invalid JSON file: {str(e)}")
+            
+    # Export button
+    col1, col2 = st.columns(2)
+    with col1:
+        st.download_button(
+            "📥 Download Results", 
+            data=json.dumps(st.session_state.weekly_log, indent=2) if st.session_state.weekly_log else "[]", 
+            file_name=f"workout_log_{datetime.now().strftime('%Y%m%d')}.json",
+            use_container_width=True
+        )
+    with col2:
+        if st.button("🔄 Refresh from GitHub", use_container_width=True):
+            st.cache_data.clear()
+            st.rerun()
+    
     st.divider()
+    
+    # --- GitHub Status ---
+    if get_github_client():
+        st.success("✅ GitHub integration active - Your workouts auto-save!")
+    else:
+        st.warning("⚠️ GitHub integration not configured - Data won't persist on refresh. See README for setup.")
 
     # --- SCHEDULE DRAWING ---
     st.subheader("Macro Goal")
