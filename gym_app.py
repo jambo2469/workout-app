@@ -4,6 +4,8 @@ import json
 from datetime import datetime
 from github import Github, GithubException
 
+st.set_page_config(page_title="Weekly Block", page_icon="🏋️", layout="centered")
+
 # --- 1. GitHub Integration ---
 @st.cache_resource
 def get_github_client():
@@ -163,9 +165,7 @@ def finish_workout(notes):
     
     st.session_state.view = 'dashboard'
 
-# --- 2. The UI Layout ---
-st.set_page_config(page_title="Weekly Block", page_icon="🏋️", layout="centered")
-
+# --- 3. The UI Layout ---
 if st.session_state.view == 'dashboard':
     st.title("Weekly Training Block")
     
