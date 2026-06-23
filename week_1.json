@@ -1,0 +1,190 @@
+{
+  "macro_goal": "Drop belly fat, fix the left hip asymmetry, and rebuild shock absorption for pain-free running.",
+  "week_goal": "Introduce unilateral leg movements and separate dynamic warm-ups from static stretching.",
+  "Monday": {
+    "theme": "Legs (Unilateral Focus) & Core",
+    "exercises": [
+      {
+        "name": "Dynamic 90/90 Hip Transitions",
+        "type": "stretch",
+        "notes": "Sit in the 90/90 position. Without using your hands, slowly flip your knees to the other side. 10 reps total to lubricate the hip joints.",
+        "video": "https://www.youtube.com/results?search_query=90%2F90+hip+switch+mobility",
+        "rest_sec": 0
+      },
+      {
+        "name": "Goblet Squats",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 24kg Dumbbell. Holding the weight at your chest forces your torso upright, completely protecting your lower back compared to a barbell.",
+        "video": "https://www.youtube.com/results?search_query=perfect+goblet+squat+form"
+      },
+      {
+        "name": "Bulgarian Split Squats",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 8,
+        "rest_sec": 90,
+        "notes": "Target: 10kg DBs in each hand. Put your rear foot on a bench. This will brutally expose and fix the tight left hip.",
+        "video": "https://www.youtube.com/results?search_query=bulgarian+split+squat+for+glutes"
+      },
+      {
+        "name": "Leg Curl Machine",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 140kg. Strict form, no swinging."
+      },
+      {
+        "name": "Suitcase Carries",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 1,
+        "rest_sec": 60,
+        "notes": "Target: 24kg DB. Hold one heavy dumbbell in your right hand and walk 20 meters. Switch hands. This forces your core to stop your spine from bending, which translates directly to running stability.",
+        "video": "https://www.youtube.com/results?search_query=suitcase+carry+exercise"
+      }
+    ]
+  },
+  "Tuesday": {
+    "theme": "Push (Chest, Shoulders, Triceps)",
+    "exercises": [
+      {
+        "name": "Arm Circles & Band Pull-Aparts",
+        "type": "stretch",
+        "notes": "Dynamic warm-up for the shoulder joints. 20 reps each.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Dumbbell Bench Press",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 8,
+        "rest_sec": 90,
+        "notes": "Target: 20kg DBs. Dumbbells allow a deeper stretch for the chest than a barbell.",
+        "video": "https://www.youtube.com/results?search_query=dumbbell+bench+press+form"
+      },
+      {
+        "name": "Standing DB Military Press",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 15kg DBs. Standing forces the core to stabilize the weight."
+      },
+      {
+        "name": "Dumbbell Chest Flyes",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 10kg DBs. Slight bend in the elbow, stretch the chest."
+      },
+      {
+        "name": "Tricep Rope Pushdowns",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 32kg on the cable machine. Pull the rope apart at the bottom."
+      }
+    ]
+  },
+  "Wednesday": {
+    "theme": "Active Recovery & Deep Tissue",
+    "exercises": [
+      {
+        "name": "Deep Static Mobility Flow",
+        "type": "stretch",
+        "notes": "1. Pigeon Pose (2 mins per side)\n2. Piriformis Stretch (1 min per side)\n3. Supine Twist (1 min per side)\n4. Deep 90/90 Hold leaning forward (1 min per side)",
+        "rest_sec": 0
+      },
+      {
+        "name": "Front Crawl Swim",
+        "type": "cardio",
+        "distance": "1km",
+        "target_pace": "30 mins",
+        "notes": "Smooth, rhythmic cardio to elevate heart rate and burn calories without spinal compression."
+      },
+      {
+        "name": "Post-Swim Sauna",
+        "type": "stretch",
+        "notes": "15 Minutes in the sauna."
+      }
+    ]
+  },
+  "Thursday": {
+    "theme": "Pull (Back & Posture)",
+    "exercises": [
+      {
+        "name": "Lat Pull Downs",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 36kg. Drive the elbows down into your back pockets."
+      },
+      {
+        "name": "Seated Row",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 36kg. Squeeze the shoulder blades together."
+      },
+      {
+        "name": "Cable Face Pulls",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 15,
+        "rest_sec": 60,
+        "notes": "Target: 15kg. Crucial for fixing rounded shoulders and posture.",
+        "video": "https://www.youtube.com/results?search_query=athlean+x+face+pull"
+      },
+      {
+        "name": "DB Bicep Curls",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 10,
+        "rest_sec": 60,
+        "notes": "Target: 15kg DBs."
+      }
+    ]
+  },
+  "Friday": {
+    "theme": "Hamstring Lengthening & Run Test",
+    "exercises": [
+      {
+        "name": "Dynamic Leg Swings",
+        "type": "stretch",
+        "notes": "15 swings forward/backward, 15 swings side-to-side per leg.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Single-Leg RDLs",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 8,
+        "rest_sec": 60,
+        "notes": "Target: 15kg DB in one hand. Hinge at the hip, keeping the back flat. This will expose tight hamstrings.",
+        "video": "https://www.youtube.com/results?search_query=single+leg+rdl+form"
+      },
+      {
+        "name": "Row Machine",
+        "type": "cardio",
+        "distance": "15 mins",
+        "target_pace": "Moderate",
+        "notes": "Full-body warm up."
+      },
+      {
+        "name": "Strava Run Test",
+        "type": "cardio",
+        "distance": "2km max",
+        "target_pace": "6:00/km or slower",
+        "notes": "Focus on a mid-foot strike, taking slightly shorter, quicker steps to reduce impact."
+      }
+    ]
+  }
+}
