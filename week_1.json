@@ -228,6 +228,47 @@
       ],
       "notes": "",
       "completed_at": "2026-06-28T10:14:10.363265"
+    },
+    {
+      "day": "Tuesday",
+      "theme": "Push (Chest, Shoulders, Triceps)",
+      "exercises": [
+        {
+          "name": "Arm Circles & Band Pull-Aparts",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Standing DB Military Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Dumbbell Chest Flyes",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Tricep Rope Pushdowns",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "Notes on Tuesday\n17.5kg on Dumbbell Bench press\nStanding DB 10kg 8 reps\nButterfly DB press 10kg 12 reps\nTricep pull down 14.7kg 12 reps\nExercises were too little",
+      "completed_at": "2026-06-28T10:14:40.746841"
     }
   ]
 }
