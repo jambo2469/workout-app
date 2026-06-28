@@ -186,5 +186,159 @@
         "notes": "Focus on a mid-foot strike, taking slightly shorter, quicker steps to reduce impact."
       }
     ]
-  }
+  },
+  "completed_workouts": [
+    {
+      "day": "Monday",
+      "theme": "Legs (Unilateral Focus) & Core",
+      "exercises": [
+        {
+          "name": "Dynamic 90/90 Hip Transitions",
+          "type": "stretch",
+          "note": "90/90, cannot get both cheeks on floor, struggled a lot more when rolling onto my left leg"
+        },
+        {
+          "name": "Goblet Squats",
+          "type": "weight",
+          "note": "Goblet Squat 16kg, really felt in my back",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "type": "weight",
+          "note": "On Bulgarian split squat, started our with 12.5kg in each hadn but really struggled with balance and my lower back is aching, gone to 5kg and I can now success do 8 reps, definitely harder on my right foot as I tend to sway right out of balance",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Leg Curl Machine",
+          "type": "weight",
+          "note": "On Leg curl, we also have prone leg curl. But I did seated leg curl and reduced the weight to 57kg, back really kills after this, from all previous exercises I presume",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Suitcase Carries",
+          "type": "weight",
+          "note": "Suitcase carrys 25kg, abit worried about feet placement",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:14:10.363265"
+    },
+    {
+      "day": "Tuesday",
+      "theme": "Push (Chest, Shoulders, Triceps)",
+      "exercises": [
+        {
+          "name": "Arm Circles & Band Pull-Aparts",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Standing DB Military Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Dumbbell Chest Flyes",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Tricep Rope Pushdowns",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "Notes on Tuesday\n17.5kg on Dumbbell Bench press\nStanding DB 10kg 8 reps\nButterfly DB press 10kg 12 reps\nTricep pull down 14.7kg 12 reps\nExercises were too little",
+      "completed_at": "2026-06-28T10:14:40.746841"
+    },
+    {
+      "day": "Thursday",
+      "theme": "Pull (Back & Posture)",
+      "exercises": [
+        {
+          "name": "Lat Pull Downs",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Seated Row",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Cable Face Pulls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "DB Bicep Curls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "Lat pull downs, 43kgs, tried technique saw online, tucked thumbs over the handle and turned my elbows in, really felt it targeting my back now, worried this may neglect other muscles or whether I should be mainly feeling it in my back.\n50kg seated rows\nRoped head pulls 27kg\nBig difference of strength between left and right bicep, so made both do 10kg, the max the weakest one (can do comfortably)",
+      "completed_at": "2026-06-28T10:15:28.309019"
+    },
+    {
+      "day": "Friday",
+      "theme": "Hamstring Lengthening & Run Test",
+      "exercises": [
+        {
+          "name": "Dynamic Leg Swings",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Single-Leg RDLs",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Row Machine",
+          "type": "cardio",
+          "note": "",
+          "time": "",
+          "pace": ""
+        },
+        {
+          "name": "Strava Run Test",
+          "type": "cardio",
+          "note": "",
+          "time": "",
+          "pace": ""
+        }
+      ],
+      "notes": "Single leg RDLs, 16kg Kettle bell. Stuggled more balancing on my left foot. Back hurt on run, had to stop at 1.5km but could be from single leg deadlifts before ",
+      "completed_at": "2026-06-28T10:16:21.931138"
+    }
+  ]
 }
