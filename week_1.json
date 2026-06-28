@@ -371,6 +371,47 @@
       ],
       "notes": "Single leg RDLs, 16kg Kettle bell. Stuggled more balancing on my left foot. Back hurt on run, had to stop at 1.5km but could be from single leg deadlifts before ",
       "completed_at": "2026-06-28T10:16:21.931138"
+    },
+    {
+      "day": "Monday",
+      "theme": "Legs (Glute Activation & Quads)",
+      "exercises": [
+        {
+          "name": "Side-Lying Clamshells",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Goblet Squats (Heels Elevated)",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Prone Leg Curl Machine",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Suitcase Carries",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:27:25.561195"
     }
   ]
 }
