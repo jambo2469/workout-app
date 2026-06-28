@@ -1,0 +1,222 @@
+{
+  "macro_goal": "Drop belly fat, fix the left hip asymmetry, and rebuild shock absorption for pain-free running.",
+  "week_goal": "Wake up the dormant left glute medius, elevate the heels on squats to protect the lumbar spine, and aggressively ramp up upper body push volume.",
+  "Monday": {
+    "theme": "Legs (Glute Activation & Quads)",
+    "exercises": [
+      {
+        "name": "Side-Lying Clamshells",
+        "type": "stretch",
+        "notes": "Lie on your side with knees bent. Keep your feet together and open your top knee like a clamshell. 20 reps per side. This is non-negotiable to wake up the glute medius before lifting.",
+        "video": "https://www.youtube.com/results?search_query=glute+clamshell+exercise",
+        "rest_sec": 0
+      },
+      {
+        "name": "Goblet Squats (Heels Elevated)",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 90,
+        "notes": "Target: 12kg DB. Place two small 1.25kg plates on the floor and stand with your heels on them. Keep your torso completely vertical to eliminate lower back strain."
+      },
+      {
+        "name": "Bulgarian Split Squats",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 8,
+        "rest_sec": 90,
+        "notes": "Target: 5kg DBs in each hand. Slow the movement completely down. Fight the sway to the right; focus entirely on keeping the left knee tracking straight over the toes."
+      },
+      {
+        "name": "Prone Leg Curl Machine",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 45kg. Lie flat on your stomach. Keep your hips glued firmly to the pad so your lower back cannot arch to cheat the weight up."
+      },
+      {
+        "name": "Suitcase Carries",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 1,
+        "rest_sec": 60,
+        "notes": "Target: 25kg DB. Do not overthink foot placement; just walk exactly as you normally would down the street, keeping your shoulders perfectly level."
+      }
+    ]
+  },
+  "Tuesday": {
+    "theme": "Push (Volume Ramp-Up)",
+    "exercises": [
+      {
+        "name": "Arm Circles & Band Pull-Aparts",
+        "type": "stretch",
+        "notes": "Dynamic warm-up for the shoulder joints. 20 reps each.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Dumbbell Bench Press",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 8,
+        "rest_sec": 90,
+        "notes": "Target: 17.5kg DBs."
+      },
+      {
+        "name": "Incline Dumbbell Press",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 12.5kg DBs. Set the bench to a 30-degree angle to target the upper chest.",
+        "video": "https://www.youtube.com/results?search_query=incline+dumbbell+press+form"
+      },
+      {
+        "name": "Standing DB Military Press",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 8,
+        "rest_sec": 90,
+        "notes": "Target: 10kg DBs."
+      },
+      {
+        "name": "Dumbbell Chest Flyes",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 10kg DBs. Focus on the stretch."
+      },
+      {
+        "name": "Dumbbell Lateral Raises",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 15,
+        "rest_sec": 60,
+        "notes": "Target: 5kg DBs. Slight bend in the elbow, raise straight out to the sides to widen the shoulders."
+      },
+      {
+        "name": "Tricep Rope Pushdowns",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 12,
+        "rest_sec": 60,
+        "notes": "Target: 14.7kg. Pull the rope apart hard at the very bottom."
+      }
+    ]
+  },
+  "Wednesday": {
+    "theme": "Fresh-Legs Run Test & Deep Tissue",
+    "exercises": [
+      {
+        "name": "Dynamic 90/90 Hip Transitions",
+        "type": "stretch",
+        "notes": "Spend an extra 2 minutes carefully working the transition onto the left leg to loosen the capsule before running.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Strava Run Test",
+        "type": "cardio",
+        "distance": "1.5km to 2km",
+        "target_pace": "6:00/km or slower",
+        "notes": "Running on completely fresh legs. If the back still hurts here, we know it is a pure structural impact issue, not just muscle fatigue from lifting."
+      },
+      {
+        "name": "Deep Static Mobility Flow",
+        "type": "stretch",
+        "notes": "Post-run: Pigeon Pose (2 mins per side), Piriformis Stretch (1 min per side), Supine Twist (1 min per side)."
+      },
+      {
+        "name": "Post-Run Sauna",
+        "type": "stretch",
+        "notes": "15 Minutes in the sauna."
+      }
+    ]
+  },
+  "Thursday": {
+    "theme": "Pull (Back & Biceps)",
+    "exercises": [
+      {
+        "name": "Lat Pull Downs",
+        "type": "weight",
+        "target_sets": 4,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 43kg. Keep using that exact thumbless grip and turning the elbows in."
+      },
+      {
+        "name": "Seated Row",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 90,
+        "notes": "Target: 50kg."
+      },
+      {
+        "name": "Cable Face Pulls",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 15,
+        "rest_sec": 60,
+        "notes": "Target: 27kg."
+      },
+      {
+        "name": "DB Bicep Curls",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 60,
+        "notes": "Target: 10kg DBs. Continue letting the weaker arm dictate the maximum weight."
+      },
+      {
+        "name": "Dumbbell Hammer Curls",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 10,
+        "rest_sec": 60,
+        "notes": "Target: 10kg DBs. Hold the dumbbells vertically (like holding a hammer) to target the brachialis.",
+        "video": "https://www.youtube.com/results?search_query=dumbbell+hammer+curl+form"
+      }
+    ]
+  },
+  "Friday": {
+    "theme": "Hamstring Lengthening & Core",
+    "exercises": [
+      {
+        "name": "Dynamic Leg Swings",
+        "type": "stretch",
+        "notes": "15 swings forward/backward, 15 swings side-to-side per leg.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Single-Leg RDLs",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 8,
+        "rest_sec": 60,
+        "notes": "Target: 12kg KB. Dropping the weight slightly to prioritize absolute stability on the left foot without the lower back compensating."
+      },
+      {
+        "name": "Hip Abduction Machine",
+        "type": "weight",
+        "target_sets": 3,
+        "target_reps": 15,
+        "rest_sec": 60,
+        "notes": "Target: 60kg. Pushing the knees outward to build armor around the outside of the hips."
+      },
+      {
+        "name": "Forearm Plank",
+        "type": "stretch",
+        "notes": "Hold for 60 seconds. Brace the core as hard as possible to build endurance in the lower back stabilizers.",
+        "rest_sec": 0
+      },
+      {
+        "name": "Row Machine",
+        "type": "cardio",
+        "distance": "15 mins",
+        "target_pace": "Moderate",
+        "notes": "Flush the blood out of the legs to finish the week."
+      }
+    ]
+  }
+}
