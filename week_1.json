@@ -269,6 +269,42 @@
       ],
       "notes": "Notes on Tuesday\n17.5kg on Dumbbell Bench press\nStanding DB 10kg 8 reps\nButterfly DB press 10kg 12 reps\nTricep pull down 14.7kg 12 reps\nExercises were too little",
       "completed_at": "2026-06-28T10:14:40.746841"
+    },
+    {
+      "day": "Thursday",
+      "theme": "Pull (Back & Posture)",
+      "exercises": [
+        {
+          "name": "Lat Pull Downs",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Seated Row",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Cable Face Pulls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "DB Bicep Curls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "Lat pull downs, 43kgs, tried technique saw online, tucked thumbs over the handle and turned my elbows in, really felt it targeting my back now, worried this may neglect other muscles or whether I should be mainly feeling it in my back.\n50kg seated rows\nRoped head pulls 27kg\nBig difference of strength between left and right bicep, so made both do 10kg, the max the weakest one (can do comfortably)",
+      "completed_at": "2026-06-28T10:15:28.309019"
     }
   ]
 }
