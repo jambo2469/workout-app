@@ -305,6 +305,40 @@
       ],
       "notes": "Lat pull downs, 43kgs, tried technique saw online, tucked thumbs over the handle and turned my elbows in, really felt it targeting my back now, worried this may neglect other muscles or whether I should be mainly feeling it in my back.\n50kg seated rows\nRoped head pulls 27kg\nBig difference of strength between left and right bicep, so made both do 10kg, the max the weakest one (can do comfortably)",
       "completed_at": "2026-06-28T10:15:28.309019"
+    },
+    {
+      "day": "Friday",
+      "theme": "Hamstring Lengthening & Run Test",
+      "exercises": [
+        {
+          "name": "Dynamic Leg Swings",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Single-Leg RDLs",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Row Machine",
+          "type": "cardio",
+          "note": "",
+          "time": "",
+          "pace": ""
+        },
+        {
+          "name": "Strava Run Test",
+          "type": "cardio",
+          "note": "",
+          "time": "",
+          "pace": ""
+        }
+      ],
+      "notes": "Single leg RDLs, 16kg Kettle bell. Stuggled more balancing on my left foot. Back hurt on run, had to stop at 1.5km but could be from single leg deadlifts before ",
+      "completed_at": "2026-06-28T10:16:21.931138"
     }
   ]
 }
