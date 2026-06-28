@@ -467,6 +467,36 @@
       ],
       "notes": "",
       "completed_at": "2026-06-28T10:27:45.054338"
+    },
+    {
+      "day": "Wednesday",
+      "theme": "Fresh-Legs Run Test & Deep Tissue",
+      "exercises": [
+        {
+          "name": "Dynamic 90/90 Hip Transitions",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Strava Run Test",
+          "type": "cardio",
+          "note": "",
+          "time": "",
+          "pace": ""
+        },
+        {
+          "name": "Deep Static Mobility Flow",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Post-Run Sauna",
+          "type": "stretch",
+          "note": ""
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:28:15.014360"
     }
   ]
 }
