@@ -497,6 +497,49 @@
       ],
       "notes": "",
       "completed_at": "2026-06-28T10:28:15.014360"
+    },
+    {
+      "day": "Thursday",
+      "theme": "Pull (Back & Biceps)",
+      "exercises": [
+        {
+          "name": "Lat Pull Downs",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Seated Row",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Cable Face Pulls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "DB Bicep Curls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Dumbbell Hammer Curls",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:28:52.272360"
     }
   ]
 }
