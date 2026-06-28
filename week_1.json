@@ -186,5 +186,48 @@
         "notes": "Focus on a mid-foot strike, taking slightly shorter, quicker steps to reduce impact."
       }
     ]
-  }
+  },
+  "completed_workouts": [
+    {
+      "day": "Monday",
+      "theme": "Legs (Unilateral Focus) & Core",
+      "exercises": [
+        {
+          "name": "Dynamic 90/90 Hip Transitions",
+          "type": "stretch",
+          "note": "90/90, cannot get both cheeks on floor, struggled a lot more when rolling onto my left leg"
+        },
+        {
+          "name": "Goblet Squats",
+          "type": "weight",
+          "note": "Goblet Squat 16kg, really felt in my back",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "type": "weight",
+          "note": "On Bulgarian split squat, started our with 12.5kg in each hadn but really struggled with balance and my lower back is aching, gone to 5kg and I can now success do 8 reps, definitely harder on my right foot as I tend to sway right out of balance",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Leg Curl Machine",
+          "type": "weight",
+          "note": "On Leg curl, we also have prone leg curl. But I did seated leg curl and reduced the weight to 57kg, back really kills after this, from all previous exercises I presume",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Suitcase Carries",
+          "type": "weight",
+          "note": "Suitcase carrys 25kg, abit worried about feet placement",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:14:10.363265"
+    }
+  ]
 }
