@@ -412,6 +412,61 @@
       ],
       "notes": "",
       "completed_at": "2026-06-28T10:27:25.561195"
+    },
+    {
+      "day": "Tuesday",
+      "theme": "Push (Volume Ramp-Up)",
+      "exercises": [
+        {
+          "name": "Arm Circles & Band Pull-Aparts",
+          "type": "stretch",
+          "note": ""
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Standing DB Military Press",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Dumbbell Chest Flyes",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Dumbbell Lateral Raises",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        },
+        {
+          "name": "Tricep Rope Pushdowns",
+          "type": "weight",
+          "note": "",
+          "weight": 0.0,
+          "reps": 0
+        }
+      ],
+      "notes": "",
+      "completed_at": "2026-06-28T10:27:45.054338"
     }
   ]
 }
